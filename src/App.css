@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+*{
+
+    background-color: #282c34;
+    color: #61dafb;
+}
+*{
+    background-color: #282c34;
+}
+header{
+    font-family: Roboto, sans-serif;
+font-weight: 3;
+    margin:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+.description{
+    padding: 0.1rem;
+}
+.restart{
+    padding: 1rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
+    width: 7rem;
+    height:3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #48cae4;
+background-color: #282c34;
+border:solid #48cae4 ;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.square{
+    width: 3rem;
+    height:3rem;
+    margin: 1rem;
+    max-width: 3rem;
+    max-height:3rem ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34;
+    border:solid #48cae4 ;
+
+}
+.status-container{
+margin-top: 5rem;
+margin-bottom: 5rem;
+display:flex;
+align-items: center;
+justify-content: center;
+width:100%;
+}
+.status{
+    border: solid #61dafb;
+    font-size: large;
+    padding: 1rem;
+}  
+.board-row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.game{
+    width: 100%;
+    height: 100%;
+    border:solid #48cae4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.game-info{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+    
 }
